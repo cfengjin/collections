@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://treenote.netlify.app",
     title: "Treenote",
   },
   plugins: [
@@ -19,7 +19,7 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
-    // "gatsby-plugin-mdx",
+    "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
